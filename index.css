@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.product{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.right-column{
+    width: 43%;
+    margin-top: 100px;
+}
+.product-img{
+    width: 83%;
+    height: 540px;
+    margin-top: 61px;
+    margin-left:40px;
+    
+}
+.left-column{
+    width: 50%;
+    margin-top: 40px;
+    padding-left: 0px;
+}
+.product-description{
+    margin-bottom: 40px;
+}
+.product-description h1{
+    font-weight: 300;
+    font-size: 44px;
+    letter-spacing: -2px;
+}
+.product-description h3{
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+   
+}
+.product-description h4{
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(27, 25, 25);
+}
+
+.description{
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.h-des{
+    font-size: 20px;
+    font-weight: 200;
+}
+.p-price{
+    color:black;
+}
+.price{
+    color: #009688;
+    font-weight: bold;
+}
+.description{
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(27, 25, 25)
+}
+
+.description p{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #86939e;
+}
+.preview-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.img0{
+    margin: 5px;
+    width: 15%;
+    height: 30%;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.img0:hover{
+    border: 2px solid #009688;
+}
+.img1{
+    margin: 5px;
+    width: 15%;
+    height: 30%;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 6px;
+}
+.img1:hover{
+    border: 2px solid #009688;
+}
+.img2{
+    margin: 5px;
+    width: 15%;
+    height: 30%;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 6px;
+}
+.img2:hover{
+    border: 2px solid #009688;
+}
+.img3{
+    margin: 5px;
+    width: 15%;
+    height: 30%;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 6px;
+}
+.img3:hover{
+    border: 2px solid #009688;
+}
+.img4{
+    margin: 5px;
+    width: 15%;
+    height: 30%;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 6px;
+}
+.img4:hover{
+    border: 2px solid #009688;
+}
+
+
+.add-to-cart{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 27px;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    background-color: #009688;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 50%);
+}
